@@ -60,14 +60,16 @@ public class Recursion
         }
     }
 
+
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        // Countdown(5);
-        // VisualCountdown(5);
-        // CountDownUp("*", 5);
+        Countdown(5);
+        VisualCountdown(5);
+        CountDownUp("*", 5);
 
-        String pathToStart = "C:\\Users\\bodonne3\\OneDrive - DePaul University\\Documents\\CSC242";
+        
+        String pathToStart = "C:\\Users\\bodonne3\\Documents";
         File path = new File(pathToStart);
         TraverseFileSystem(path, " ");
     }
